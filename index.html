@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Desafio 01</title>
+    <title>Projeto Arquitetura</title>
 </head>
 <body>
     <header id="menu-superior">
@@ -26,21 +28,17 @@
             <p class="text-info">m² em projetos construídos</p>
         </div>
     </div>
-    <div id="main">
-        <div class="main-content">
-            <div class="main-text">
-                <h2>Arquitetos com História e Experiência.</h2>
-                <p class="paragrafro">Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
-                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
-                como principal proposta transformar em realidade os sonhos de <br>
-                seus clientes, criando projetos personalizados, unindo a tradição <br>
-                e a modernidade em nossos projetos.</p>
-            </div>
-            <img id="pic" src="imagem/image.png" alt="Foto projeto" />
+    <div class="container">
+        <div class="texto-conteudo">
+            <h1 id="title-main">Arquitetos com História e Experiência.</h1>
+            <p id="paragrafo">Nós realizamos desde 2002 projetos e gerenciamento de obras. Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, unindo a tradição e a modernidade em nossos projetos.</p>
+        </div>
+        <div class="imagem-conteudo">
+            <img id="pic" src="./imagem/image.png" alt="Projeto de arquitetura">
         </div>
     </div>
     <div id="form">
-        <p class="title-form">Conheça mais sobre nossos serviços</p>
+        <p class="title-form">Conheça mais sobre nossos serviços:</p>
         <form action="https://api.sheetmonkey.io/form/f2Fr7geUYrHeaMPGzvN8RU" method="POST">
             <input type="text" placeholder="Nome" name="Name" required><br>
             <input type="email" placeholder="Email" name="Email" required><br>
