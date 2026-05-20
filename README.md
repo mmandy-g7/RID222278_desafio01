@@ -1,5 +1,5 @@
-# RID222278_desafio01
-Resultado desafio 01
+#ARCHITECTURE LANDINGPAGE
+Desafio da escola DNC
 
 link do site disponibilizado: https://rid222278.netlify.app/
 
